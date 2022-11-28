@@ -1,0 +1,46 @@
+/*
+
+    selector {
+        property: value;
+        property: value;
+        property: value;
+        etc.
+    }
+
+    selector options:
+
+    tag name, sutch as p or img
+    .classname, such a .green or .highlighted
+    tag.class, such as h1.green or p.highlighted
+
+    tagname>tagname
+    .classname>tagname
+    tagname>.classname
+    .classname>.classname
+*/
+
+.nav {
+    list-style: none;
+    border-style: solid ;
+    padding-left: 0%;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.nav>li {
+    border-style: ridge;
+    display: inline-block;
+}
+
+body {
+    background-image: url(Images/hokusai.jpg);
+}
+
+.bold {
+    font-style: bold;
+}
+
+.p {
+    color: red;
+}
