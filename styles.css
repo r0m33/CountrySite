@@ -35,12 +35,44 @@
 
 body {
     background-image: url(Images/hokusai.jpg);
+    background-repeat: no-repeat;
+   background-size: cover;
+
 }
 
 .bold {
     font-style: bold;
 }
 
-.p {
+p {
     color: red;
+    background-color: black;
+    font-size: 200%;
+}
+
+.one {
+    background-image: url(Images/islands.jfif);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.two {
+ background-image: url(Images/cannedFood.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+.three {
+ background-image: url(Images/forest.webp);
+ background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.headings {
+    color: white;
+    background-color: black;
+    font-size: 300%;
+}
+h2 {
+    font-size: 250%;
 }
